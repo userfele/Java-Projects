@@ -6,10 +6,6 @@ import javax.swing.JFrame;
  */
 public class SpiralGenerator
 {
-    /**
-     This method draws the spiral on the frame.
-     @param g
-     */
     public static void draw(Graphics g)
     {
         int size = 10;
@@ -50,7 +46,6 @@ public class SpiralGenerator
                 size = size + increment;
             }
             count++;
-// Check if the coordinates are outside the JFrame area
             if ((xLast < 0) || (yLast < 0) || (xNext < 0) || (yNext < 0))
             {
                 done = true;
