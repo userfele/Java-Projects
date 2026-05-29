@@ -1,5 +1,3 @@
-//  GrazingMammals.java
-
 interface RuminantTester {
     void testIfRuminant();
     void testHasMultipleStomachs();
